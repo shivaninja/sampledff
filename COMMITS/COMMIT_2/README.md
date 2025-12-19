@@ -1,7 +1,7 @@
 
 # COMMIT 2
 
-## This Commit includes 2 things. 
+## This Commit includes 2 things 
 ## 1. Creating all the skeleton functions in stats.c file
 ## 2. Declaring all the functions in used stats.c source file to stats.h header file
 
@@ -38,5 +38,6 @@ unsigned char find_maximum(unsigned char *data, unsigned int length){  return 0;
 unsigned char find_minimum(unsigned char *data, unsigned int length){   return 0; }
 
 void sort_array(unsigned char *data, unsigned int length){}
+
 
 
