@@ -94,8 +94,6 @@ gcc -o stats.out stats.c
 ./stats.out
 ```
 
-```
-
 ##Sample Output
 ```
 === Array Statistics ===
@@ -107,7 +105,8 @@ Mean: 93
 Median: 92
 
 === Sorted Array ===
-250 244 230 201 201 200 
+250 244 230 201 201 200
+
 ```
 
 ## Version Control Strategy
