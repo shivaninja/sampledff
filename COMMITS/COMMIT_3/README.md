@@ -1,10 +1,4 @@
 
-# Embedded Engineer Intern Task
-
-This repository contains a C-based statistical analytics project
-developed as part of an Embedded Engineer Intern assignment.
-Author: Shiva Goud
-
 # COMMIT 3
 
 ## This Commit includes 3 things. 
@@ -42,4 +36,5 @@ Author: Shiva Goud
     printf("\n");
 
 ```
+
 
