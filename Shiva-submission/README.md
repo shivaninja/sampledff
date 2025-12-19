@@ -94,7 +94,12 @@ The following functions are implemented:
 8. main()              – Program entry point and execution flow
 
 ## Compilation and Execution
+Bash Commands used for building & running project files
 
+### To install GCC in linux
+```
+sudo apt install gcc
+```
 ### Compile and run the program using GCC in Linux bash CLI:
 ```
 gcc -o stats.out stats.c
@@ -175,6 +180,12 @@ The project was developed using a three-commit Git workflow:
 |                   |
 ---------------------        
 ```
+## Assumptions and limitations
+You cannot insert a number that 255 in unsigned char array because unsigned char is 1 byte and 255 is maximum number supported
+Unsigned integer is 4bytes with no MSB, so Mazimum number it can support is 4,294,967,295
+NOTE: For Pointer arthemetic, note below
+1. If you add +1 to int pointer, the result points to address 4 bytes after
+2. If you add +1 to char pointer, the result points to address 1 bytes after
 
 ##  NOTE: Why 'Unsigned Char' is used ?
 Below information explains why unsigned char is used 
