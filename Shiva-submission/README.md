@@ -201,11 +201,17 @@ Below information explains why unsigned char is used
 
 ## Implementation details
 Programming Language: C language
+
 COmpiler: GCC
+
 Debugger: GDb
+
 OS: Ubuntu/ Debian Based linux distro
+
 IDE: Visual Studio Code
+
 Version Control: GitHub    
+
 Dependencies: N/A (Every thing is implemented using C standard libary)
 
 ## Author
