@@ -59,7 +59,7 @@ This project strictly follows constraints to meet requirements:
 
 4. Uses integer arithmetic only (no floating point)
 
-5. No dynamic memory allocation (No - HEAP, Malloc, Calloc)
+5. No dynamic memory allocation (No - Heap, Malloc, Calloc)
 
 6. No external libraries beyond the C standard library
 
