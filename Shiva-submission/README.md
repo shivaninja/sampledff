@@ -133,9 +133,10 @@ The project was developed using a three-commit Git workflow:
 
 ```
 ---------------------
-| Stats.c file      |
 |   subroutine      |
 |    Functions      |
+|       in          |
+|   Stats.c file    |
 |-------------------|
 | sort_array()      |
 | find_maximum()    |
@@ -161,8 +162,9 @@ The project was developed using a three-commit Git workflow:
          |  1. Calls
          |
 ---------------------
-|     stats.c File  |
-|     Main function |
+|    Main function  |
+|        in         |
+|    stats.c File   |
 |-------------------|
 |                   |
 |  void main()      |
