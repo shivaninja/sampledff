@@ -12,16 +12,6 @@ Pointer-based array manipulation
 
 Datatypes used are only 'Unsigned Char' & 'Unsigned int' 
 
-Uses only Header file(stats.h) & Soucre file(stats.c) to achieve all requirements
-
-Only Static Memory used (No Dynamic memory used)
-
-Unsigned Char is used to interpret numbers. 
-
-So, no negative numbers or signed datatypes used.
-
-No Floting datatypes(Float & Double) is used.
-
 Structured development using Git version control
 
 
@@ -60,11 +50,13 @@ README.md – Project documentation
 
 ## Design Constraints
 
-This project strictly follows embedded-oriented constraints:
+This project strictly follows constraints to meet requirements:
 
 Uses only standard C features
 
 Uses unsigned char for dataset storage
+
+uses unsigned int for array length
 
 Uses integer arithmetic only (no floating point)
 
@@ -73,6 +65,12 @@ No dynamic memory allocation
 No external libraries beyond the C standard library
 
 Deterministic and predictable execution
+
+Uses only Header file(stats.h) & Soucre file(stats.c) to achieve all requirements
+
+Unsigned Char is used to interpret numbers. 
+
+Structured development using Git version control
 
 ## Implemented Functions
 
