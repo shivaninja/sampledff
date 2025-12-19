@@ -1,7 +1,6 @@
 
 # Embedded Engineer Intern Task – Statistical Analytics Engine
 ## This is the main 'README' file for the whole project. 
-## NOTE: COMMIT 3 Folder Contains the final end result project 
 ## Overview
 
 This project implements a statistical analytics engine in C designed with embedded systems constraints in mind. The application processes a fixed-size dataset of unsigned characters and computes key statistical metrics using standard C, integer arithmetic, and static memory only.
