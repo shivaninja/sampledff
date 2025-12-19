@@ -2,9 +2,11 @@
 # COMMIT 3
 
 ## This Commit includes 3 things. 
-## 1. Building all the program logic to fill the skeliton code in stats.c file
+## 1. Building all the program logic to fill the skeleton code in stats.c file
 ## 2. ALso declaring and defining the local variables in stat.c subroutine function
 ## 3. Calling all the subroutine function from main function.
+
+
 
 ## Building Logic includes
 1. Sorting Array using Bubble Sort Algorithm
@@ -36,5 +38,6 @@
     printf("\n");
 
 ```
+
 
 
