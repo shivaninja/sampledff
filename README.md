@@ -121,11 +121,11 @@ Median: 92
 
 The project was developed using a three-commit Git workflow:
 
-Initial Repository – Project structure and template files
+1. Initial Repository – Project structure and template files
 
-Project Outline – Function prototypes, documentation, and skeleton code
+2. Project Outline – Function prototypes, documentation, and skeleton code
 
-Feature Development – Full implementation, testing, and refinement
+3. Feature Development – Full implementation, testing, and refinement
 
 This approach reflects a structured and professional development process.
 
