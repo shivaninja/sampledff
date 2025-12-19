@@ -159,7 +159,7 @@ The project was developed using a three-commit Git workflow:
          |
          |  1. Calls
          |
---------------------
+ --------------------
 |     stats.c File  |
 |     Main function |
 |-------------------|
