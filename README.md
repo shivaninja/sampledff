@@ -93,12 +93,12 @@ The following functions are implemented:
 
 ## Compilation and Execution
 
-### Compile and run the program using GCC in Linux Bash CLI
+### Compile and run the program using GCC in Linux bash CLI:
 ```
 gcc -o stats.out stats.c
 ```
 
-### To Execute the final output
+### To Execute the final output in bash:
 ```
 ./stats.out
 ```
