@@ -42,9 +42,9 @@ Unsigned Char is used to work with numbers
 ## Project File Structure
 ```
 
-|__ README.md
-|__ stats.c
-|__ stats.h
+| ___ README.md
+| ___ stats.c
+| ___ stats.h
 
 ```
 
@@ -127,7 +127,6 @@ The project was developed using a three-commit Git workflow:
 
 3. Feature Development – Full implementation, testing, and refinement
 
-This approach reflects a structured and professional development process.
 
 ## Author
 
