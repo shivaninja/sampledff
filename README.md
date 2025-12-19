@@ -130,33 +130,6 @@ The project was developed using a three-commit Git workflow:
 ## Block Diagram
 
 ```
-
---------------------
-|     stats.c       |
-| #include "stats.h"|
-|-------------------|
-|                   |
-|  int main()       |
-|  ---------------  |
-|  - Define array   |
-|  - print_array()  |
-|  - sort_array()   |
-|  - print_stats()  |
-|                   |
----------------------
-          |
-          | Calls
-          v
----------------------
-|     stats.h       |
-|-------------------|
-| Function          |
-| Declarations      |
-| (Prototypes)      |
----------------------
-          |
-          | Calls
-          v
 --------------------
 | Stats.c subroutine|
 |    Functions      |
@@ -168,9 +141,34 @@ The project was developed using a three-commit Git workflow:
 | find_median()     |
 | print_array()     |
 | print_statistics()|
+---------------------    
+         ^
+         |
+         |  2. Calls
+         |
 ---------------------
-
-
+|     stats.h       |
+|-------------------|
+| Function          |
+| Declarations      |
+| (Prototypes)      |
+---------------------    
+         ^
+         |
+         |  1. Calls
+         |
+--------------------
+|     stats.c File  |
+|-------------------|
+|                   |
+|  void main()      |
+|  ---------------  |
+|  - Define array   |
+|  - print_array()  |
+|  - sort_array()   |
+|  - print_stats()  |
+|                   |
+---------------------        
 ```
 
 
