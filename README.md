@@ -39,7 +39,6 @@ Project Directory
         |__ README.md
         |__ stats.c
         |__ stats.h
-
 ```
 
 stats.c – Function implementations and program entry point
@@ -116,7 +115,6 @@ Median: 92
 
 === Sorted Array ===
 250 244 230 201 201 200
-
 ```
 
 ## Version Control Strategy
