@@ -163,7 +163,6 @@ The project was developed using a three-commit Git workflow:
 |-------------------|
 |                   |
 |  void main()      |
-|  ---------------  |
 |  - Define array   |
 |  - print_array()  |
 |  - sort_array()   |
