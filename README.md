@@ -51,25 +51,25 @@ README.md – Project documentation
 
 This project strictly follows constraints to meet requirements:
 
-Uses only standard C features & no extra libraries 
+1. Uses only standard C features & no extra libraries 
 
-Uses unsigned char for dataset storage
+2. Uses unsigned char for dataset storage
 
-Uses unsigned int for array length
+3. Uses unsigned int for array length
 
-Uses integer arithmetic only (no floating point)
+4. Uses integer arithmetic only (no floating point)
 
-No dynamic memory allocation
+5. No dynamic memory allocation (No - HEAP, Malloc, Calloc)
 
-No external libraries beyond the C standard library
+6. No external libraries beyond the C standard library
 
-Deterministic and predictable execution
+7. Deterministic and predictable execution
 
-Uses only Header file(stats.h) & Soucre file(stats.c) to achieve all requirements
+8. Uses only Header file(stats.h) & Soucre file(stats.c) to achieve all requirements
 
-Unsigned Char is used to interpret numbers. 
+9. Unsigned Char is used to interpret numbers. 
 
-Structured development using Git version control
+10 Structured development using Git version control
 
 ## Implemented Functions
 
