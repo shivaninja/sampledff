@@ -93,7 +93,7 @@ The following functions are implemented:
 
 ## Compilation and Execution
 
-### Compile and run the program using GCC:
+### Compile and run the program using GCC in Linux Bash CLI
 ```
 gcc -o stats.out stats.c
 ```
