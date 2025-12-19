@@ -174,6 +174,31 @@ The project was developed using a three-commit Git workflow:
 ---------------------        
 ```
 
+##  Why Unsigned Char is used ?
+1. Usually char in c uses 1 Byte(8 Bits) of space.
+2. Then maximum number that can fit in 8 bits is 255.
+3. 1 bit(Left most bit) among those 8 bits is called MOST SIGNIFICANT BIT/MSB
+4. MSB bit is used to indicate sign(+ & -) of number residing in next 7 bits. MSB->1 for negative, MSB->0 for positive
+5. So maximum number that can fit in 7 bits in 127 which is 7 ones (111 1111)
+6. Once the number is greater than 127, it occupies 8th bit(MSB bit) and it sends 1 into MSB
+7. When MSB=1 the compiler does 2's complement of whole 8 bits and outputs two's complement number with negative sign before it
+8. The compiler does this to accommodate the negative numbers.
+9. So, maximum +ve number that can fit in normal char is 127;
+10. That is why I used unsigned char. In unsigned char the MSB bit becomes obsolete, So it cannot accommodate -ve numbers
+11. In unsigned char, we can use all 8 bits & maximum number supported in 255;
+    
+```
+char temp = 127  -> 111 1111
+OUTPUT: 127      -> No 2's complement needed
+
+char temp2 = 128  -> 1000 0000
+OUTPUT : -128     ->  -1000 0000 -> 2's complement
+
+unsigned char temp = 128  -> 1000 0000
+OUTPUT: 128               -> No 2's complement, sinced char is unsigned
+
+
+```
 
 ## Author
 
@@ -184,5 +209,6 @@ Shiva Goud
 Notes
 
 This project is intended as a submission for TAMIZH Internship role. 
+
 
 
