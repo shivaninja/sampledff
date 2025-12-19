@@ -16,7 +16,9 @@ Uses only Header file(stats.h) & Soucre file(stats.c) to achieve all requirement
 
 Only Static Memory used (No Dynamic memory used)
 
-Unsigned Char is used to interpret numbers. So, no negative numbers are used. Also MSB bit dosen't affect the sign value for Unsigned Char 
+Unsigned Char is used to interpret numbers. 
+
+So, no negative numbers or signed datatypes used.
 
 No floting datatypes(Float & DOuble) or floting points arthemetic is used
 
