@@ -131,11 +131,9 @@ The project was developed using a three-commit Git workflow:
 
 ```
 
-          ^
-          |  #include "stats.h"
-          |
-----------+----------
+--------------------
 |     stats.c       |
+| #include "stats.h"|
 |-------------------|
 |                   |
 |  int main()       |
