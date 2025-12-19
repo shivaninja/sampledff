@@ -124,16 +124,6 @@ Median: 92
 250 244 230 201 201 200
 ```
 
-## Version Control Strategy
-
-The project was developed using a three-commit Git workflow:
-
-1. Initial Repository – Project structure and template files
-
-2. Project Outline – Function prototypes, documentation, and skeleton code
-
-3. Feature Development – Full implementation, testing, and refinement
-
 ## Simple Block Diagram
 
 ```
@@ -198,6 +188,18 @@ Below information explains why unsigned char is used
 9. So, maximum +ve number that can fit in normal char is 127;
 10. That is why I used unsigned char. In unsigned char the MSB bit becomes obsolete, So it cannot accommodate -ve numbers
 11. In unsigned char, we can use all 8 bits & maximum number supported in 255;
+
+
+## Version Control Strategy
+
+The project was developed using a three-commit Git workflow:
+
+1. Initial Repository – Project structure and template files
+
+2. Project Outline – Function prototypes, documentation, and skeleton code
+
+3. Feature Development – Full implementation, testing, and refinement
+   
 
 ## Implementation details
 ```
