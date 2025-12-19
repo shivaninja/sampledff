@@ -47,7 +47,7 @@ stats.h – Function declarations and documentation
 
 README.md – Project documentation
 
-## Design Constraints
+## Design Constraints & requirement compliance
 
 This project strictly follows constraints to meet requirements:
 
