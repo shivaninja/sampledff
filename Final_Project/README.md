@@ -1,45 +1,189 @@
 
-# Embedded Engineer Intern Task
+# Embedded Engineer Intern Task – Statistical Analytics Engine
+## TAMIZH Internship Project
 
-This repository contains a C-based statistical analytics project
-developed as part of an Embedded Engineer Intern assignment.
-Author: Shiva Goud
+### NOTE 1: To find project progress during each building phase checkout Commit folders above
+### NOTE 2: Project Folder above contains Final Main Project  
 
-# COMMIT 3
+## Overview
 
-## This Commit includes 3 things. 
-## 1. Building all the program logic to fill the skeliton code in stats.c file
-## 2. ALso declaring and defining the local variables in stat.c subroutine function
-## 3. Calling all the subroutine function from main function.
+This project implements a statistical analytics engine in C designed with embedded systems constraints in mind. The application processes a fixed-size dataset of unsigned characters and computes key statistical metrics using standard C, integer arithmetic, and static memory only.
 
-## Building Logic includes
-1. Sorting Array using Bubble Sort Algorithm
-2. Finding Maximum using forloop and keep storing biggest element in each iteration
-3. Finding Minimum using forloop and keep storing smallest element in each iteration
-4. Finding Mean using Average formula: (Sum of all numbers )/Total numbers
-5. Finding Median using finging middle term with formula (Length of array)/2
-6. Printing all array elements using for loop and print function
-7. Creating a function named print_statistics() and using it to call MEAN, MEDIAN , MIN , MAX functions
+The project Meets all requirements, including:
+
+Clean C programming practices
+
+Pointer-based array manipulation
+
+Datatypes used are only 'Unsigned Char' & 'Unsigned int' 
+
+Structured development using Git version control
 
 
-## Below is program form main function that is used for calling subrouting function.
-## This below code is added in commit 3
- ```
- printf("=====Array Statistics=====");
-    print_array(test, SIZE);
-    printf("\n");
+## Features
 
-    /* Sort the array from largest to smallest */
-    sort_array(test, SIZE);
-    printf("\n");
+ The application analyzes an array of 40 unsigned char data elements and provides:
 
-    /* Print statistical results */
-    print_statistics(test, SIZE);
-    printf("\n");
+1. Maximum value
 
-    printf("====Sorted Array====");
-    print_array(test, SIZE);
-    printf("\n");
+2. Minimum value
 
+3. Mean (average, rounded down using integer arithmetic)
+
+4. Median value
+
+5. Sorted dataset (descending order)
+
+6. Prints Array
+
+
+
+## Project File Structure
+```
+Project Directory
+        |__ README.md
+        |__ stats.c
+        |__ stats.h
 ```
 
+stats.c – Function implementations and program entry point
+
+stats.h – Function declarations and documentation
+
+README.md – Project documentation
+
+## Design Constraints & Requirements 
+
+This project strictly follows constraints to meet requirements:
+
+1. Uses only standard C features & no extra libraries 
+
+2. Uses unsigned char for dataset storage
+
+3. Uses unsigned int for array length
+
+4. Uses integer arithmetic only (no floating point)
+
+5. No dynamic memory allocation (No - Heap, Malloc, Calloc)
+
+6. No external libraries beyond the C standard library
+
+7. Deterministic and predictable execution
+
+8. Uses only Header file(stats.h) & Soucre file(stats.c) to achieve all requirements
+
+9. Unsigned Char is used to interpret numbers. 
+
+10 Structured development using Git version control
+
+## Implemented Functions
+
+The following functions are implemented:
+
+1. print_statistics()  - Prints min, max, mean, and median
+
+2. print_array()       - Prints array contents
+
+3. find_maximum()      – Finds the maximum value
+
+4. find_minimum()      – Finds the minimum value
+
+5. find_mean()         – Computes the arithmetic mean
+
+6. find_median()       – Computes the median value
+
+7. sort_array()        – Sorts the array in descending order
+
+8. main()              – Program entry point and execution flow
+
+## Compilation and Execution
+
+### Compile and run the program using GCC in Linux bash CLI:
+```
+gcc -o stats.out stats.c
+```
+
+### To Execute the final output in bash:
+```
+./stats.out
+```
+
+## Sample Output
+```
+=== Array Statistics ===
+Array Contents: 34 201 190 154 8 194 2 6 ...
+
+Maximum: 250
+Minimum: 2
+Mean: 93
+Median: 92
+
+=== Sorted Array ===
+250 244 230 201 201 200
+```
+
+## Version Control Strategy
+
+The project was developed using a three-commit Git workflow:
+
+1. Initial Repository – Project structure and template files
+
+2. Project Outline – Function prototypes, documentation, and skeleton code
+
+3. Feature Development – Full implementation, testing, and refinement
+
+## Block Diagram
+
+```
+---------------------
+| Stats.c file      |
+|   subroutine      |
+|    Functions      |
+|-------------------|
+| sort_array()      |
+| find_maximum()    |
+| find_minimum()    |
+| find_mean()       |
+| find_median()     |
+| print_array()     |
+| print_statistics()|
+---------------------    
+         ^
+         |
+         |  2. Calls
+         |
+---------------------
+|     stats.h       |
+|-------------------|
+| Function          |
+| Declarations      |
+| (Prototypes)      |
+---------------------    
+         ^
+         |
+         |  1. Calls
+         |
+---------------------
+|     stats.c File  |
+|     Main function |
+|-------------------|
+|                   |
+|  void main()      |
+|  - Define array   |
+|  - print_array()  |
+|  - sort_array()   |
+|  - print_stats()  |
+|                   |
+---------------------        
+```
+
+
+## Author
+
+Shiva Goud
+
+19-12-2025
+
+Notes
+
+This project is intended as a submission for TAMIZH Internship role. 
