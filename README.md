@@ -32,7 +32,7 @@ Structured development using Git version control
 
 All results are printed to the console using printf().
 
-## Project file Structure
+## Project File Structure
 ```
 
 |__ README.md
