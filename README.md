@@ -1,6 +1,6 @@
 
-Embedded Engineer Intern Task – Statistical Analytics Engine
-Overview
+# Embedded Engineer Intern Task – Statistical Analytics Engine
+## Overview
 
 This project implements a statistical analytics engine in C designed with embedded systems constraints in mind. The application processes a fixed-size dataset of unsigned characters and computes key statistical metrics using standard C, integer arithmetic, and static memory only.
 
@@ -14,7 +14,7 @@ Deterministic algorithms suitable for embedded environments
 
 Structured development using Git version control
 
-Features
+## Features
 
 The application analyzes an array of 40 unsigned char data elements and provides:
 
@@ -30,11 +30,15 @@ Sorted dataset (descending order)
 
 All results are printed to the console using printf().
 
-Project Structure
+```
+
+ Project Structure
 .
 ├── README.md
 ├── stats.c
 └── stats.h
+
+```
 
 stats.c – Function implementations and program entry point
 
@@ -42,7 +46,7 @@ stats.h – Function declarations and documentation
 
 README.md – Project documentation
 
-Design Constraints
+## Design Constraints
 
 This project strictly follows embedded-oriented constraints:
 
@@ -58,7 +62,7 @@ No external libraries beyond the C standard library
 
 Deterministic and predictable execution
 
-Implemented Functions
+## Implemented Functions
 
 The following functions are implemented:
 
@@ -78,26 +82,30 @@ sort_array() – Sorts the array in descending order
 
 main() – Program entry point and execution flow
 
-Compilation and Execution
+## Compilation and Execution
 
 Compile and run the program using GCC:
 
 gcc -Wall -Wextra -o stats.out stats.c
 ./stats.out
+
+```
 Sample Output
 === Array Statistics ===
 Array Contents: 34 201 190 154 8 194 2 6 ...
+
 Maximum: 250
 Minimum: 2
 Mean: 93
 Median: 92
-========================
-
 
 === Sorted Array ===
 250 244 230 201 201 200 ...
-====================
-Version Control Strategy
+
+
+```
+
+## Version Control Strategy
 
 The project was developed using a three-commit Git workflow:
 
@@ -109,11 +117,10 @@ Feature Development – Full implementation, testing, and refinement
 
 This approach reflects a structured and professional development process.
 
-Author
+## Author
 
-Shiva Pnjugula
-Master of Computer Applications (MCA)
-Interests: Embedded Systems, Low-Level Programming, Operating Systems, Cybersecurity
+Shiva Goud
+19-12-2025
 
 Notes
 
