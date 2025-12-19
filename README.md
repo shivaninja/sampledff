@@ -66,21 +66,21 @@ Deterministic and predictable execution
 
 The following functions are implemented:
 
-print_statistics() – Prints min, max, mean, and median
+print_statistics()  – Prints min, max, mean, and median
 
-print_array() – Prints array contents
+print_array()       – Prints array contents
 
-find_maximum() – Finds the maximum value
+find_maximum()      – Finds the maximum value
 
-find_minimum() – Finds the minimum value
+find_minimum()      – Finds the minimum value
 
-find_mean() – Computes the arithmetic mean
+find_mean()         – Computes the arithmetic mean
 
-find_median() – Computes the median value
+find_median()       – Computes the median value
 
-sort_array() – Sorts the array in descending order
+sort_array()        – Sorts the array in descending order
 
-main() – Program entry point and execution flow
+main()              – Program entry point and execution flow
 
 ## Compilation and Execution
 
