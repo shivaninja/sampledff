@@ -2,7 +2,7 @@
 # COMMIT 2
 
 ## This Commit includes 2 things. 
-## 1. Creating all the skeliton functions in stats.c file
+## 1. Creating all the skeleton functions in stats.c file
 ## 2. Declaring all the functions in used stats.c source file to stats.h header file
 
 
@@ -23,7 +23,7 @@ void sort_array(unsigned char *data, unsigned int length);
 
 
 
-## Below is the newly declared skeliton function in stats.c file
+## Below is the newly declared skeleton function in stats.c file
 
 void print_statistics(unsigned char *data, unsigned int length){}
 
@@ -38,4 +38,5 @@ unsigned char find_maximum(unsigned char *data, unsigned int length){  return 0;
 unsigned char find_minimum(unsigned char *data, unsigned int length){   return 0; }
 
 void sort_array(unsigned char *data, unsigned int length){}
+
 
