@@ -161,6 +161,7 @@ The project was developed using a three-commit Git workflow:
          |
 --------------------
 |     stats.c File  |
+|     Main function |
 |-------------------|
 |                   |
 |  void main()      |
