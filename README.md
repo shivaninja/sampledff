@@ -66,9 +66,9 @@ Deterministic and predictable execution
 
 The following functions are implemented:
 
-print_statistics()  – Prints min, max, mean, and median
+print_statistics()  - Prints min, max, mean, and median
 
-print_array()       – Prints array contents
+print_array()       - Prints array contents
 
 find_maximum()      – Finds the maximum value
 
