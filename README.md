@@ -10,15 +10,17 @@ Clean C programming practices
 
 Pointer-based array manipulation
 
-Datatypes used are only Unsigned Char & Unsigned int 
-
-Structured development using Git version control
+Datatypes used are only 'Unsigned Char' & 'Unsigned int' 
 
 Uses only Header file(stats.h) & Soucre file(stats.c) to achieve all requirements
 
 Only Static Memory used (No Dynamic memory used)
 
-Unsigned Char is used to work with numbers 
+Unsigned Char is used to interpret numbers. So, no negative numbers are used. Also MSB bit dosen't affect the sign value for Unsigned Char 
+
+No floting datatypes(Float & DOuble) or floting points arthemetic is used
+
+Structured development using Git version control
 
 
 ## Features
