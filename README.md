@@ -28,6 +28,8 @@ Structured development using Git version control
 
 5. Sorted dataset (descending order)
 
+6. Prints Array
+
 All results are printed to the console using printf().
 
 ```
