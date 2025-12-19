@@ -84,12 +84,12 @@ main()              – Program entry point and execution flow
 
 ## Compilation and Execution
 
-###Compile and run the program using GCC:
+### Compile and run the program using GCC:
 ```
 gcc -o stats.out stats.c
 ```
 
-###To Execute the final output
+### To Execute the final output
 ```
 ./stats.out
 ```
