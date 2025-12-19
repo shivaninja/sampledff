@@ -1,11 +1,4 @@
 
-# Embedded Engineer Intern Task
-
-This repository contains a C-based statistical analytics project
-developed as part of an Embedded Engineer Intern assignment.
-
-Author: Shiva Goud
-
 # COMMIT 2
 
 ## This Commit includes 2 things. 
@@ -45,3 +38,4 @@ unsigned char find_maximum(unsigned char *data, unsigned int length){  return 0;
 unsigned char find_minimum(unsigned char *data, unsigned int length){   return 0; }
 
 void sort_array(unsigned char *data, unsigned int length){}
+
