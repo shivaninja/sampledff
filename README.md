@@ -51,7 +51,7 @@ README.md – Project documentation
 
 This project strictly follows constraints to meet requirements:
 
-Uses only standard C features
+Uses only standard C features & no extra libraries 
 
 Uses unsigned char for dataset storage
 
