@@ -41,10 +41,10 @@ Unsigned Char is used to work with numbers
 
 ## Project File Structure
 ```
-
-|__ README.md
-|__ stats.c
-|__ stats.h
+Main Project Directory
+             |__ README.md
+             |__ stats.c
+             |__ stats.h
 
 ```
 
