@@ -33,10 +33,10 @@ All results are printed to the console using printf().
 ```
 
  Project Structure
-.
-├── README.md
-├── stats.c
-└── stats.h
+
+|__ README.md
+|__ stats.c
+|__ stats.h
 
 ```
 
