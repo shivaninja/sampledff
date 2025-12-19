@@ -129,7 +129,7 @@ The project was developed using a three-commit Git workflow:
 
 3. Feature Development – Full implementation, testing, and refinement
 
-## Block Diagram
+## Simple Block Diagram
 
 ```
 ---------------------
