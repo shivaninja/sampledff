@@ -84,14 +84,14 @@ main()              – Program entry point and execution flow
 
 ## Compilation and Execution
 
-Compile and run the program using GCC:
+###Compile and run the program using GCC:
 ```
 gcc -o stats.out stats.c
 (or)
 gcc -o stats.bin stats.c
 ```
 
-To Execute the final output
+###To Execute the final output
 ```
 ./stats.out
 (or)
@@ -100,7 +100,8 @@ To Execute the final output
 
 ```
 
-Sample Output
+##Sample Output
+```
 === Array Statistics ===
 Array Contents: 34 201 190 154 8 194 2 6 ...
 
@@ -110,9 +111,7 @@ Mean: 93
 Median: 92
 
 === Sorted Array ===
-250 244 230 201 201 200 ...
-
-
+250 244 230 201 201 200 
 ```
 
 ## Version Control Strategy
