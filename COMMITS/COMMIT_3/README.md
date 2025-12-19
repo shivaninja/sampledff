@@ -3,7 +3,7 @@
 
 ## This Commit includes 3 things. 
 ## 1. Building all the program logic to fill the skeleton code in stats.c file
-## 2. ALso declaring and defining the local variables in stat.c subroutine function
+## 2. Also declaring and defining the local variables in stat.c subroutine function
 ## 3. Calling all the subroutine function from main function.
 
 
@@ -38,6 +38,7 @@
     printf("\n");
 
 ```
+
 
 
 
