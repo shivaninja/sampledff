@@ -94,7 +94,7 @@ gcc -o stats.out stats.c
 ./stats.out
 ```
 
-##Sample Output
+## Sample Output
 ```
 === Array Statistics ===
 Array Contents: 34 201 190 154 8 194 2 6 ...
