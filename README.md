@@ -4,15 +4,22 @@
 
 This project implements a statistical analytics engine in C designed with embedded systems constraints in mind. The application processes a fixed-size dataset of unsigned characters and computes key statistical metrics using standard C, integer arithmetic, and static memory only.
 
-The project demonstrates core skills expected from an embedded/firmware engineer, including:
+The project Meets all requirements, including:
 
 Clean C programming practices
 
 Pointer-based array manipulation
 
-Deterministic algorithms suitable for embedded environments
+Datatypes used are only Unsigned Char & Unsigned int 
 
 Structured development using Git version control
+
+Uses only Header file(stats.h) & Soucre file(stats.c) to achieve all requirements
+
+Only Static Memory used (No Dynamic memory used)
+
+Unsigned Char is used to work with numbers 
+
 
 ## Features
 
@@ -30,7 +37,7 @@ Structured development using Git version control
 
 6. Prints Array
 
-All results are printed to the console using printf().
+
 
 ## Project File Structure
 ```
