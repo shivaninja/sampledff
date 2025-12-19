@@ -2,8 +2,8 @@
 # Embedded Engineer Intern Task – Statistical Analytics Engine
 ## TAMIZH Internship Project
 
-### NOTE 1: To find project progress during each building phase checkout Commit folders above
-### NOTE 2: Project Folder above contains Final Main Project  
+### NOTE 1: To find what project looked like during each building phase checkout Commit folder above
+### NOTE 2: To Find the Final Project, check out Final Main project folder  
 
 ## Overview
 
