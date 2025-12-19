@@ -32,9 +32,8 @@ Structured development using Git version control
 
 All results are printed to the console using printf().
 
-```
-
 ## Project Structure
+```
 
 |__ README.md
 |__ stats.c
