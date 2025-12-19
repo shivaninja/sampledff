@@ -16,17 +16,17 @@ Structured development using Git version control
 
 ## Features
 
-1. The application analyzes an array of 40 unsigned char data elements and provides:
+ The application analyzes an array of 40 unsigned char data elements and provides:
 
-2. Maximum value
+1. Maximum value
 
-3. Minimum value
+2. Minimum value
 
-4. Mean (average, rounded down using integer arithmetic)
+3. Mean (average, rounded down using integer arithmetic)
 
-5. Median value
+4. Median value
 
-6. Sorted dataset (descending order)
+5. Sorted dataset (descending order)
 
 All results are printed to the console using printf().
 
