@@ -1,9 +1,6 @@
 
+# TAMIZH Internship Project
 # Embedded Engineer Intern Task – Statistical Analytics Engine
-## TAMIZH Internship Project
-
-### NOTE 1: To find project progress during each building phase checkout Commit folders above
-### NOTE 2: Project Folder above contains Final Main Project  
 
 ## Overview
 
@@ -187,3 +184,4 @@ Shiva Goud
 Notes
 
 This project is intended as a submission for TAMIZH Internship role. 
+
