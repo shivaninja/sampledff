@@ -87,15 +87,15 @@ main()              – Program entry point and execution flow
 Compile and run the program using GCC:
 ```
 gcc -o stats.out stats.c
-```
 (or)
-```
 gcc -o stats.bin stats.c
 ```
 
 To Execute the final output
 ```
 ./stats.out
+(or)
+./stats.bin
 ```
 
 ```
