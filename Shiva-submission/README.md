@@ -205,7 +205,7 @@ The project was developed using a three-commit Git workflow:
 ```
 Programming Language: C language
 Compiler: GCC
-Debugger: GDb
+Debugger: GDB
 OS: Ubuntu/ Debian Based linux distro
 IDE: Visual Studio Code
 Version Control: GitHub    
