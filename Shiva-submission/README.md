@@ -181,8 +181,8 @@ The project was developed using a three-commit Git workflow:
 ---------------------        
 ```
 ## Assumptions and limitations
-1. You cannot insert a number that above 255 in unsigned char array because unsigned char is 1 byte and 255 is maximum number supported
-2. Unsigned integer is 4bytes with no MSB, so Mazimum number it can support is 4,294,967,295
+1. You cannot insert a number that above 255 in unsigned char array because unsigned char is 1 byte and 255 is maximum number 8 bits/1byte can support
+2. Unsigned integer is 4bytes with obsolete MSB, so Mazimum number it can support is 4,294,967,295
 3. For Pointer arthemetic, If you add +1 to int pointer, the result points to address that is 4 bytes after, this is because int is 4 bytes
 4. For Pointer arthemetic, If you add +1 to char pointer, the result points to address that is 1 bytes after, this is because char is 1 bytes
 ### Why 'Unsigned Char' is used ?
