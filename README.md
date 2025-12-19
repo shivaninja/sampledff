@@ -55,7 +55,7 @@ Uses only standard C features
 
 Uses unsigned char for dataset storage
 
-uses unsigned int for array length
+Uses unsigned int for array length
 
 Uses integer arithmetic only (no floating point)
 
