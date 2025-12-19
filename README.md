@@ -124,4 +124,4 @@ Shiva Goud
 
 Notes
 
-This project is intended as a foundational demonstration of embedded C programming principles and does not rely on platform-specific features or operating system services.
+This project is intended as a submission for TAMIZH Internship role. 
