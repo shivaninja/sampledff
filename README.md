@@ -127,6 +127,54 @@ The project was developed using a three-commit Git workflow:
 
 3. Feature Development – Full implementation, testing, and refinement
 
+## Block Diagram
+
+```
+
+          ^
+          |  #include "stats.h"
+          |
+----------+----------
+|     stats.c       |
+|-------------------|
+|                   |
+|  int main()       |
+|  ---------------  |
+|  - Define array   |
+|  - print_array()  |
+|  - sort_array()   |
+|  - print_stats()  |
+|                   |
+---------------------
+          |
+          | Calls
+          v
+---------------------
+|     stats.h       |
+|-------------------|
+| Function          |
+| Declarations      |
+| (Prototypes)      |
+---------------------
+          |
+          | Calls
+          v
+--------------------
+| Stats.c subroutine|
+|    Functions      |
+|-------------------|
+| sort_array()      |
+| find_maximum()    |
+| find_minimum()    |
+| find_mean()       |
+| find_median()     |
+| print_array()     |
+| print_statistics()|
+---------------------
+
+
+```
+
 
 ## Author
 
