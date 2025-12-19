@@ -184,8 +184,8 @@ The project was developed using a three-commit Git workflow:
 You cannot insert a number that 255 in unsigned char array because unsigned char is 1 byte and 255 is maximum number supported
 Unsigned integer is 4bytes with no MSB, so Mazimum number it can support is 4,294,967,295
 NOTE: For Pointer arthemetic, note below
-1. If you add +1 to int pointer, the result points to address 4 bytes after
-2. If you add +1 to char pointer, the result points to address 1 bytes after
+1. If you add +1 to int pointer, the result points to address that is 4 bytes after, this is because int is 4 bytes
+2. If you add +1 to char pointer, the result points to address that is 1 bytes after, this is because char is 1 bytes
 ### Why 'Unsigned Char' is used ?
 Below information explains why unsigned char is used 
 1.  Char in c uses 1 Byte(8 Bits) of space.
