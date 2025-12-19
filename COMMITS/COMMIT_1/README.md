@@ -12,6 +12,10 @@
 2. stats.c file contains all the source code
 3. stats.h file contains function declarations of functions that are declared in stats.c file
 
+## Plan
+1. stats.c main function includes header file(stats.h) to connect with the subroutine functions which are also in stats.c and it 
+
+
 
 
 
