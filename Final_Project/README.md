@@ -174,7 +174,7 @@ The project was developed using a three-commit Git workflow:
 ---------------------        
 ```
 
-##  NOTE: Why Unsigned Char is used ?
+##  NOTE: Why 'Unsigned Char' is used ?
 1.  Char in c uses 1 Byte(8 Bits) of space.
 2. Then maximum number that can fit in 8 bits is 255.
 3. 1 bit(Left most bit) among those 8 bits is called MOST SIGNIFICANT BIT/MSB
@@ -198,6 +198,7 @@ Date: 19-12-2025
 Notes
 
 This project is intended as a submission for TAMIZH Internship role. 
+
 
 
 
