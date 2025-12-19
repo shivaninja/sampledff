@@ -42,9 +42,9 @@ Unsigned Char is used to work with numbers
 ## Project File Structure
 ```
 
-| ___ README.md
-| ___ stats.c
-| ___ stats.h
+| __ README.md
+| __ stats.c
+| __ stats.h
 
 ```
 
