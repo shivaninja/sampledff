@@ -131,7 +131,8 @@ The project was developed using a three-commit Git workflow:
 
 ```
 --------------------
-| Stats.c subroutine|
+| Stats.c file      |
+|   subroutine      |
 |    Functions      |
 |-------------------|
 | sort_array()      |
