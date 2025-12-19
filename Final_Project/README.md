@@ -1,6 +1,6 @@
 
 # TAMIZH Internship Project
-# Embedded Engineer Intern Task – Statistical Analytics Engine
+# Embedded Engineer Intern Project – Statistical Analytics Engine
 
 ## Overview
 
@@ -184,4 +184,5 @@ Shiva Goud
 Notes
 
 This project is intended as a submission for TAMIZH Internship role. 
+
 
