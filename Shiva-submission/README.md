@@ -198,8 +198,15 @@ Below information explains why unsigned char is used
 9. So, maximum +ve number that can fit in normal char is 127;
 10. That is why I used unsigned char. In unsigned char the MSB bit becomes obsolete, So it cannot accommodate -ve numbers
 11. In unsigned char, we can use all 8 bits & maximum number supported in 255;
-    
 
+## Implementation details
+Programming Language: C language
+COmpiler: GCC
+Debugger: GDb
+OS: Ubuntu/ Debian Based linux distro
+IDE: Visual Studio Code
+Version Control: GitHub    
+Dependencies: N/A (Every thing is implemented using C standard libary)
 
 ## Author
 
