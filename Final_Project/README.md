@@ -37,7 +37,7 @@ Structured development using Git version control
 
 ## Project File Structure
 ```
-Project Directory
+Project Folder(Shiva-submission)
         |__ README.md
         |__ stats.c
         |__ stats.h
@@ -199,6 +199,7 @@ Date: 19-12-2025
 Notes
 
 This project is intended as a submission for TAMIZH Internship role. 
+
 
 
 
