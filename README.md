@@ -20,7 +20,7 @@ Unsigned Char is used to interpret numbers.
 
 So, no negative numbers or signed datatypes used.
 
-No floting datatypes(Float & DOuble) or floting points arthemetic is used
+No Floting datatypes(Float & Double) is used.
 
 Structured development using Git version control
 
