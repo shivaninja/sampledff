@@ -85,11 +85,17 @@ main()              – Program entry point and execution flow
 ## Compilation and Execution
 
 Compile and run the program using GCC:
+```
+gcc -o stats.out stats.c
+```
 
-gcc -Wall -Wextra -o stats.out stats.c
+To Execute the final output
+```
 ./stats.out
+```
 
 ```
+
 Sample Output
 === Array Statistics ===
 Array Contents: 34 201 190 154 8 194 2 6 ...
