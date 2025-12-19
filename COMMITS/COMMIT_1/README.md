@@ -13,7 +13,11 @@
 3. stats.h file contains function declarations of functions that are declared in stats.c file
 
 ## Plan
-1. stats.c main function includes header file(stats.h) to connect with the subroutine functions which are also in stats.c and it 
+1. stats.c includes header file(stats.h) to connect with it.
+2. stats.h just declares(not defines) all the subroutine functions inside stats.c
+3. So compiling stats.h from stats.c enables main function from stats.c to use subroutine functions via stats.h even if no function prototpes used in stats.c
+
+
 
 
 
