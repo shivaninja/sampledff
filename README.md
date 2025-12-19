@@ -1,8 +1,9 @@
 
 # Embedded Engineer Intern Task – Statistical Analytics Engine
-## This is the main 'README' file for the whole project. 
-## COMMITS Folders contains project state in each phase
-## Final Project Folder contains Final Main Project 
+## TAMIZH Internship Project
+
+## NOTE:1 TO find project progress during each each building phase checkout Commit folders above
+## NOTE 2: Project Folder above contains Final Main Project 
 ## Overview
 
 This project implements a statistical analytics engine in C designed with embedded systems constraints in mind. The application processes a fixed-size dataset of unsigned characters and computes key statistical metrics using standard C, integer arithmetic, and static memory only.
