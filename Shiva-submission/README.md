@@ -43,11 +43,12 @@ Project Folder
         |__ stats.h
 ```
 
-stats.c – Function implementations and program entry point
+stats.c – It is source file with Function implementations and program entry point(Main function)
 
-stats.h – Function declarations and documentation
+stats.h – It is header file with Function declarations of functions residing in stats.c file and is also has documentation
 
 README.md – Project documentation
+
 
 ## Design Constraints & Requirements 
 
